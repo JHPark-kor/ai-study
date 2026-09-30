@@ -4,9 +4,9 @@
 
 | 작성자 | 논문 출처 | 키워드 | PDF | Notion |
 |---|---|---|---|---|
-| 박중현 | 유지현·고진환(2025), 「초음파 어레이를 활용한 One-Class SVM 낙상 탐지」 | One-Class SVM, 이상치 탐지, 낙상 탐지, 초음파 어레이 | [PDF](./papers/w7_svm_paper_review_박중현.pdf) | [Notion](https://app.notion.com/p/w7_svm_PaperReview-3ca917c0e640803181a8fb2ca4c71de6?pvs=25) |
-| 강재성 | Baly, R. & Hajj, H. (2012), *Wafer Classification Using Support Vector Machines* | 반도체 수율 예측, 웨이퍼 분류, RBF SVM, False Negative | [PDF](./papers/w7_wafer_classification_jaesung.pdf) | [Notion](https://app.notion.com/p/3cb917c0e64080c39945d7e1ed7cb300?pvs=25) |
-| 신정윤 | *Sentiment Analysis for IMDb Movie Review Using SVM Method* | 감성 분석, IMDb Review, SVM, BoW, TF-IDF | [PDF](./papers/w7_imdb_sentiment_svm_wjddbsl03.pdf) | [Notion](https://app.notion.com/p/w7-_-SVM-3ca917c0e6408039896cc410effdb6e4?pvs=25) |
+| 박중현 | 유지현·고진환(2025), 「초음파 어레이를 활용한 One-Class SVM 낙상 탐지」 | One-Class SVM, 이상치 탐지, 낙상 탐지, 초음파 어레이 | [PDF](./files/w7_svm_paper_review_박중현.pdf) | [Notion](https://app.notion.com/p/w7_svm_PaperReview-3ca917c0e640803181a8fb2ca4c71de6?pvs=25) |
+| 강재성 | Baly, R. & Hajj, H. (2012), *Wafer Classification Using Support Vector Machines* | 반도체 수율 예측, 웨이퍼 분류, RBF SVM, False Negative | [PDF](./files/w7_wafer_classification_jaesung.pdf) | [Notion](https://app.notion.com/p/3cb917c0e64080c39945d7e1ed7cb300?pvs=25) |
+| 신정윤 | *Sentiment Analysis for IMDb Movie Review Using SVM Method* | 감성 분석, IMDb Review, SVM, BoW, TF-IDF | [PDF](./files/w7_imdb_sentiment_svm_wjddbsl03.pdf) | [Notion](https://app.notion.com/p/w7-_-SVM-3ca917c0e6408039896cc410effdb6e4?pvs=25) |
 
 ## 요약
 
