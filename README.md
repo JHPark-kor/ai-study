@@ -11,6 +11,11 @@
 3. **데이터 분석 미니 프로젝트**<br />
    학습한 알고리즘을 직접 데이터 분석에 활용합니다. **문제 정의 - 분석 기획 - EDA 및 분석 - 결과와 인사이트 도출 - 분석 보고서 작성** 후 각자 수행했던 프로젝트를 발표합니다.
 
+\+ **사이드 프로젝트**<br />
+최근 Agent AI를 활용한 반복 업무 자동화와 문제 해결에 관심이 많아 별도의 프로젝트를 기획하고 있습니다.
+
+진행 중인 프로젝트: **Agent AI 기반 데이터 분석 EDA 자동화 플랫폼**
+
 <br />
 
 <!-- 사용자 제공 과제 사진을 유형별 두 장씩 배치한다. 별도 Study Flow 섹션은 두지 않는다. -->
@@ -27,16 +32,16 @@
   </thead>
   <tbody>
     <tr>
-      <td align="center" valign="top"><a href="assets/readme/examples/math-likelihood.png"><img src="assets/readme/examples/math-likelihood.png" width="200" alt="베이지안 분류기의 최대우도추정: 우도와 로그우도" /></a><br /><br /><strong>베이지안 분류기의<br />우도와 로그우도</strong></td>
+      <td align="center" valign="top"><a href="assets/readme/examples/math-likelihood.png"><img src="assets/readme/examples/math-likelihood.png" width="200" alt="베이지안 분류기의 최대우도추정: 우도와 로그우도" /></a><br /><br />베이지안 분류기의<br />우도와 로그우도</td>
       <td rowspan="2"></td>
-      <td align="center" valign="top"><a href="assets/readme/examples/paper-sentiment.png"><img src="assets/readme/examples/paper-sentiment.png" width="200" alt="Naive Bayes 기반 신조어 감성분석 논문 사례" /></a><br /><br /><strong>Naive Bayes 기반<br />감성분석 논문 사례 정리</strong></td>
+      <td align="center" valign="top"><a href="assets/readme/examples/paper-sentiment.png"><img src="assets/readme/examples/paper-sentiment.png" width="200" alt="Naive Bayes 기반 신조어 감성분석 논문 사례" /></a><br /><br />Naive Bayes 기반<br />감성분석 논문 사례 정리</td>
       <td rowspan="2"></td>
-      <td align="center" valign="top"><a href="assets/readme/examples/analysis-bayesian.png"><img src="assets/readme/examples/analysis-bayesian.png" width="200" alt="Bayesian Network를 적용한 문화예술 관람 의향 분석 보고서" /></a><br /><br /><strong>Bayesian Network 적용<br />미니 프로젝트 보고서</strong></td>
+      <td align="center" valign="top"><a href="assets/readme/examples/analysis-bayesian.png"><img src="assets/readme/examples/analysis-bayesian.png" width="200" alt="Bayesian Network를 적용한 문화예술 관람 의향 분석 보고서" /></a><br /><br />Bayesian Network 적용<br />미니 프로젝트 보고서</td>
     </tr>
     <tr>
-      <td align="center" valign="top"><a href="assets/readme/examples/math-kernel.png"><img src="assets/readme/examples/math-kernel.png" width="200" alt="SVM 커널 함수와 고차원 특징 공간" /></a><br /><br /><strong>SVM 커널 함수</strong></td>
-      <td align="center" valign="top"><a href="assets/readme/examples/paper-pca.png"><img src="assets/readme/examples/paper-pca.png" width="200" alt="PCA 논문의 주성분 개수 선정 기준과 적용 결과" /></a><br /><br /><strong>PCA 주성분 논문 요약</strong></td>
-      <td align="center" valign="top"><a href="assets/readme/examples/analysis-eda.png"><img src="assets/readme/examples/analysis-eda.png" width="200" alt="SVM 미니 프로젝트의 학습 데이터 EDA 코드와 시각화 결과" /></a><br /><br /><strong>SVM 미니 프로젝트 코드</strong></td>
+      <td align="center" valign="top"><a href="assets/readme/examples/math-kernel.png"><img src="assets/readme/examples/math-kernel.png" width="200" alt="SVM 커널 함수와 고차원 특징 공간" /></a><br /><br />SVM 커널 함수</td>
+      <td align="center" valign="top"><a href="assets/readme/examples/paper-pca.png"><img src="assets/readme/examples/paper-pca.png" width="200" alt="PCA 논문의 주성분 개수 선정 기준과 적용 결과" /></a><br /><br />PCA 주성분 논문 요약</td>
+      <td align="center" valign="top"><a href="assets/readme/examples/analysis-eda.png"><img src="assets/readme/examples/analysis-eda.png" width="200" alt="SVM 미니 프로젝트의 학습 데이터 EDA 코드와 시각화 결과" /></a><br /><br />SVM 미니 프로젝트 코드</td>
     </tr>
   </tbody>
 </table>
@@ -45,15 +50,14 @@
 
 ### 사용 툴
 
-<table>
-  <tbody>
-    <tr>
-      <td width="240" align="center"><img src="assets/readme/tools/python.svg" width="48" height="48" alt="Python" /><br /><strong>Python</strong><br />데이터 EDA · 분석 · 모델링<br />시각화 · 통계 분석</td>
-      <td width="240" align="center"><img src="assets/readme/tools/postgresql.svg" width="48" height="48" alt="PostgreSQL" /><br /><strong>PostgreSQL</strong><br />데이터 ETL · 조회 · 분석</td>
-      <td width="240" align="center"><img src="assets/readme/tools/notion.svg" width="48" height="48" alt="Notion" /><br /><strong>Notion</strong><br />일정 관리 · 협업<br />산출물 기록 · 보고서 작성</td>
-    </tr>
-  </tbody>
-</table>
+<p><img src="assets/readme/tools/python.svg" width="32" height="32" alt="Python" /> <strong>Python</strong><br />
+<sub>데이터 EDA · 분석 · 모델링 · 시각화 · 통계 분석</sub></p>
+
+<p><img src="assets/readme/tools/postgresql.svg" width="32" height="32" alt="PostgreSQL" /> <strong>PostgreSQL</strong><br />
+<sub>데이터 ETL · 조회 · 분석</sub></p>
+
+<p><img src="assets/readme/tools/notion.svg" width="32" height="32" alt="Notion" /> <strong>Notion</strong><br />
+<sub>일정 관리 · 협업 · 산출물 기록 · 보고서 작성</sub></p>
 
 <br />
 
@@ -88,64 +92,64 @@
     <tr>
       <td>W3</td>
       <td rowspan="3"><a href="algorithms/pca/README.md">PCA</a></td>
-      <td><strong>수학 원리 학습</strong><br />분산 최대화 · 고유값 분해 · 커널 PCA</td>
+      <td><strong>수학 원리 학습</strong><br /><sub>분산 최대화 · 고유값 분해 · 커널 PCA</sub></td>
       <td><a href="algorithms/pca/math_theory/README.md">PCA 수학 원리</a></td>
       <td>—</td>
     </tr>
     <tr>
       <td>W4</td>
-      <td><strong>논문·사례 리뷰</strong><br />PCA 기반 복합지표 · 공정 이상 탐지<br />기상 재해 피해 추정</td>
+      <td><strong>논문·사례 리뷰</strong><br /><sub>PCA 기반 복합지표 · 공정 이상 탐지<br />기상 재해 피해 추정</sub></td>
       <td><a href="algorithms/pca/paper_review/README.md">PCA 논문 리뷰</a></td>
       <td>—</td>
     </tr>
     <tr>
       <td>W5</td>
-      <td><strong>데이터 분석 미니 프로젝트</strong><br />문화 접근성 · 반도체 불량 분류<br />AI 의존도 예측</td>
+      <td><strong>데이터 분석 미니 프로젝트</strong><br /><sub>문화 접근성 · 반도체 불량 분류<br />AI 의존도 예측</sub></td>
       <td><a href="algorithms/pca/analysis/README.md">PCA 미니 프로젝트</a></td>
       <td>—</td>
     </tr>
     <tr>
       <td>W6</td>
       <td rowspan="3"><a href="algorithms/svm/README.md">SVM</a></td>
-      <td><strong>수학 원리 학습</strong><br />마진 최대화 · KKT 조건 · 커널 함수</td>
+      <td><strong>수학 원리 학습</strong><br /><sub>마진 최대화 · KKT 조건 · 커널 함수</sub></td>
       <td><a href="algorithms/svm/math_theory/README.md">SVM 수학 원리</a></td>
       <td>—</td>
     </tr>
     <tr>
       <td>W7</td>
-      <td><strong>논문·사례 리뷰</strong><br />One-Class SVM 낙상 탐지<br />웨이퍼 분류 · SVM 영화 리뷰 감성분석</td>
+      <td><strong>논문·사례 리뷰</strong><br /><sub>One-Class SVM 낙상 탐지<br />웨이퍼 분류 · SVM 영화 리뷰 감성분석</sub></td>
       <td><a href="algorithms/svm/paper_review/README.md">SVM 논문 리뷰</a></td>
       <td><a href="meetings/w7_svm_paper_review.md">후속 학습 기록</a></td>
     </tr>
     <tr>
       <td>W8</td>
-      <td><strong>데이터 분석 미니 프로젝트</strong><br />사기 거래 탐지 · 반도체 불량 분류<br />SNS 감성분석</td>
+      <td><strong>데이터 분석 미니 프로젝트</strong><br /><sub>사기 거래 탐지 · 반도체 불량 분류<br />SNS 감성분석</sub></td>
       <td><a href="algorithms/svm/analysis/README.md">SVM 미니 프로젝트</a></td>
       <td><a href="meetings/w8_svm_analysis.md">기록 확인</a></td>
     </tr>
     <tr>
       <td>W9</td>
       <td rowspan="3"><a href="algorithms/bayesian/README.md">Bayesian</a></td>
-      <td><strong>수학 원리 학습</strong><br />최대우도·로그우도 · 나이브 베이즈<br />베이지안 네트워크</td>
+      <td><strong>수학 원리 학습</strong><br /><sub>최대우도·로그우도 · 나이브 베이즈<br />베이지안 네트워크</sub></td>
       <td><a href="algorithms/bayesian/math_theory/README.md">Bayesian 수학 원리</a></td>
       <td>—</td>
     </tr>
     <tr>
       <td>W10</td>
-      <td><strong>논문·사례 리뷰</strong><br />Naive Bayes 신조어 감성분석<br />제조 Cycle Time · 임상 결측 정보 활용</td>
+      <td><strong>논문·사례 리뷰</strong><br /><sub>Naive Bayes 신조어 감성분석<br />제조 Cycle Time · 임상 결측 정보 활용</sub></td>
       <td><a href="algorithms/bayesian/paper_review/README.md">Bayesian 논문 리뷰</a></td>
       <td><a href="meetings/w10_bayesian_paper_review.md">회의록</a></td>
     </tr>
     <tr>
       <td>W11</td>
-      <td><strong>데이터 분석 미니 프로젝트</strong><br />문화예술 관람 의향 · 반도체 불량 분류<br />신용카드 연체 구조 설계</td>
+      <td><strong>데이터 분석 미니 프로젝트</strong><br /><sub>문화예술 관람 의향 · 반도체 불량 분류<br />신용카드 연체 구조 설계</sub></td>
       <td><a href="algorithms/bayesian/analysis/README.md">Bayesian 미니 프로젝트</a></td>
       <td><a href="meetings/w11_bayesian_analysis.md">회의록</a></td>
     </tr>
     <tr>
       <td>W12</td>
       <td>선형회귀</td>
-      <td><strong>수학 원리 토의</strong><br />최소제곱법 · 로지스틱 회귀 · 볼록함수</td>
+      <td><strong>수학 원리 토의</strong><br /><sub>최소제곱법 · 로지스틱 회귀 · 볼록함수</sub></td>
       <td><a href="https://app.notion.com/p/3ef917c0e6408077907be85f4461eb26">선형회귀 수학 원리</a></td>
       <td><a href="meetings/w12_linear_math_theory.md">회의록</a></td>
     </tr>
@@ -156,7 +160,7 @@
 
 ## Side Projects (사이드 프로젝트)
 
-### 01. 데이터 EDA 자동화 플랫폼 만들기 (AI agent 기반)
+### 01. Agent AI 기반 데이터 분석 EDA 자동화 플랫폼
 
 <!-- 개요는 과제발굴정의서를 확인한 뒤 작성한다. 목표를 이미 달성한 성과처럼 기재하지 않는다. -->
 
