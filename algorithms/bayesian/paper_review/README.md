@@ -1,4 +1,4 @@
-# Bayesian - Paper Review
+# Bayesian · W10 paper_review
 
 W10에서는 나이브 베이즈와 베이지안 네트워크가 텍스트, 제조, 임상 데이터에서 활용되는 사례를 읽었습니다.
 
@@ -29,7 +29,4 @@ W10에서는 나이브 베이즈와 베이지안 네트워크가 텍스트, 제�
 - AUC와 500회 부트스트랩, 순열검정을 통해 결측 정보를 명시한 방식이 전반적으로 더 좋은 성능을 보였다는 결과를 정리했습니다.
 - 목표는 병명을 확정하는 자동 진단이 아니라 문제 목록을 보완하는 의사결정지원이며, 다중질환과 실제 임상 적용에는 추가 검토가 필요합니다.
 
-## 함께 남긴 기록
-
-- [W10 Notion 주차 페이지](https://app.notion.com/p/3e0917c0e64080f0be89f9b1d651bee6)
-- [W10 회의록](../../../meetings/w10_bayesian_paper_review.md)
+[W10 Notion 페이지](https://app.notion.com/p/3e0917c0e64080f0be89f9b1d651bee6) · [회의록](../../../meetings/w10_bayesian_paper_review.md)

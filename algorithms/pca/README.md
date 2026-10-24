@@ -2,10 +2,10 @@
 
 W3~W5에 PCA를 수학 원리, 논문·사례, 실제 데이터 적용의 순서로 공부했습니다.
 
-| 주차 | 과제 유형 | 확인된 결과물 | Notion 원본 |
+| 주차 | 과제 유형 | 주요 내용 | Notion |
 |---|---|---|---|
-| W3 | [math_theory](math_theory/README.md) | 박중현 손필기 PDF 1개. 공통 첨부와 동일 내용이라 중복 제외. 강재성·신정윤 개인 카드에는 본문·첨부 미확인 | [W3](https://app.notion.com/p/3c4917c0e64080feadadf827fd8c95df) |
-| W4 | [paper_review](paper_review/README.md) | 3명 리뷰 PDF 4개: 박중현 2개, 강재성·신정윤 각 1개 | [W4](https://app.notion.com/p/3c4917c0e64080938f63cc1d399a1ef6) |
-| W5 | [analysis](analysis/README.md) | 보고서 4개·노트북 4개: 박중현·강재성 각 1쌍, 신정윤 2쌍. 저장 결과·재현성 확인 사항은 하위 기록 참고 | [W5](https://app.notion.com/p/3c4917c0e64080ce828fc42dfd3a8aae) |
+| W3 | [math_theory](math_theory/README.md) | 분산 최대화·고유값 분해·커널 PCA | [W3](https://app.notion.com/p/3c4917c0e64080feadadf827fd8c95df) |
+| W4 | [paper_review](paper_review/README.md) | 복합지표 구성·반도체 이상 탐지·기상 피해 추정 | [W4](https://app.notion.com/p/3c4917c0e64080938f63cc1d399a1ef6) |
+| W5 | [analysis](analysis/README.md) | 문화취약지수·공정 불량 분류·AI 의존도 및 유방암 예측 실습 | [W5](https://app.notion.com/p/3c4917c0e64080ce828fc42dfd3a8aae) |
 
-각 과제의 `files/`에는 제출 원본을 보존하고, `README.md`에는 출처와 자료 상태를 기록합니다. 수학 자료는 요약을 생략하고 논문·분석 자료만 짧게 정리했습니다. Notion 상태값만으로 완료 여부를 판단하지 않았습니다.
+각 과제 페이지에서 학습 자료와 보고서·노트북을 볼 수 있습니다.

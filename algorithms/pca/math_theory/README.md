@@ -1,15 +1,7 @@
-# PCA · math_theory
+# PCA · W3 math_theory
 
-W3 수학 원리 학습 자료를 원본 PDF로 보관한다. 수학 자료의 별도 요약은 작성하지 않는다.
+[Notion W3](https://app.notion.com/p/3c4917c0e64080feadadf827fd8c95df)
 
-[Notion W3 페이지](https://app.notion.com/p/3c4917c0e64080feadadf827fd8c95df) · 확인일: 2026-10-24
-
-| 스터디원 | 확인된 원본 | Notion 개인 페이지 | 확인 사항 |
-| --- | --- | --- | --- |
-| 박중현 | [수학 손필기 PDF · 6쪽](files/w3_pca_math_theory_박중현.pdf) | [원문](https://app.notion.com/p/f3e917c0e64082d4b1c501b2885c6f59) | 개인 페이지의 실제 첨부를 보존 |
-| 강재성 | 이번 내보내기에서 개인 자료 미확인 | [원문](https://app.notion.com/p/3e0917c0e640805f8116e7a7c1845b07) | 완료 표시만 있으며 본문·첨부 없음 |
-| 신정윤 | 이번 내보내기에서 개인 자료 미확인 | [원문](https://app.notion.com/p/3e0917c0e640808699baeedbb0243837) | 완료 표시만 있으며 본문·첨부 없음 |
-
-주차 페이지의 공통 첨부 `단단한 머신러닝 c1. PCA math.pdf`는 박중현 개인 PDF와 6쪽 모두 렌더링 결과가 동일한 손필기다. PDF 메타데이터와 파일 해시는 다르지만 새로운 내용은 없어, 개인 페이지의 명확한 파일명을 대표본으로 선택했다. 별도 공통 교재나 다른 스터디원의 제출물로 중복 산정하지 않는다.
-
-담당자 매핑은 개인 페이지의 `노랑고흐`, `JAESUNGKANG`, `wjddbsl03` 속성에 따른다. 빈 개인 페이지는 자료 미확인으로 표시하며, 작성하지 않았다고 단정하지 않는다.
+| 작성자 | 학습 자료 | Notion |
+|---|---|---|
+| 박중현 | [수학 손필기 PDF · 6쪽](files/w3_pca_math_theory_박중현.pdf) | [개인 페이지](https://app.notion.com/p/f3e917c0e64082d4b1c501b2885c6f59) |
