@@ -1,73 +1,66 @@
 # AI/ML 스터디
 
-저희 AI/ML 스터디 팀은 **다양한 알고리즘 기법과 이를 활용한 데이터 분석 기반의 문제 해결**에 관심 있는 3인으로 이루어져 있습니다.
-
-1. **알고리즘 학습**<br />
-   알고리즘의 수학적 원리와 구현 방식을 학습합니다.
-
-2. **분석 논문·사례 리뷰**<br />
-   해당 알고리즘을 사용한 논문과 분석 사례를 함께 읽고, 어떤 산업 분야에서 어떤 상황에 쓰일 수 있을지 고민합니다. 알고리즘의 장단점과 성능, 한계점에 대해 함께 토의합니다.
-
-3. **데이터 분석 미니 프로젝트**<br />
-   학습한 알고리즘을 직접 데이터 분석에 활용합니다. **문제 정의 - 분석 기획 - EDA 및 분석 - 결과와 인사이트 도출 - 분석 보고서 작성** 후 각자 수행했던 프로젝트를 발표합니다.
-
-\+ **사이드 프로젝트**<br />
-최근 Agent AI를 활용한 반복 업무 자동화와 문제 해결에 관심이 많아 별도의 프로젝트를 기획하고 있습니다.
-
-진행 중인 프로젝트: **Agent AI 기반 데이터 분석 EDA 자동화 플랫폼**
+저희는 **다양한 알고리즘 기법과 데이터 분석 기반의 문제 해결**에 관심 있는 3인 스터디 팀입니다.
 
 <br />
 
-<!-- 사용자 제공 과제 사진을 유형별 두 장씩 배치한다. 별도 Study Flow 섹션은 두지 않는다. -->
+## 학습 커리큘럼
 
 <table>
   <thead>
     <tr>
-      <th width="220">1주차<br />알고리즘 학습</th>
-      <th width="24">→</th>
-      <th width="220">2주차<br />논문·사례 페이퍼 리뷰</th>
-      <th width="24">→</th>
-      <th width="220">3주차<br />데이터 분석 미니 프로젝트</th>
+      <th width="210">1주차<br />알고리즘 학습</th>
+      <th width="16">→</th>
+      <th width="210">2주차<br />논문·사례 리뷰</th>
+      <th width="16">→</th>
+      <th width="210">3주차<br />데이터 분석 미니 프로젝트</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td align="center" valign="top"><a href="assets/readme/examples/math-likelihood.png"><img src="assets/readme/examples/math-likelihood.png" width="200" alt="베이지안 분류기의 최대우도추정: 우도와 로그우도" /></a><br /><br />베이지안 분류기의<br />우도와 로그우도</td>
-      <td rowspan="2"></td>
-      <td align="center" valign="top"><a href="assets/readme/examples/paper-sentiment.png"><img src="assets/readme/examples/paper-sentiment.png" width="200" alt="Naive Bayes 기반 신조어 감성분석 논문 사례" /></a><br /><br />Naive Bayes 기반<br />감성분석 논문 사례 정리</td>
-      <td rowspan="2"></td>
-      <td align="center" valign="top"><a href="assets/readme/examples/analysis-bayesian.png"><img src="assets/readme/examples/analysis-bayesian.png" width="200" alt="Bayesian Network를 적용한 문화예술 관람 의향 분석 보고서" /></a><br /><br />Bayesian Network 적용<br />미니 프로젝트 보고서</td>
+      <td valign="top"><sub>- 알고리즘의 수학적 구현 원리 학습</sub></td>
+      <td rowspan="3"></td>
+      <td valign="top"><sub>- 알고리즘을 활용한 논문 및 사례 보고서 리딩<br /><br />- 알고리즘의 활용 분야·사례 그리고 장단점과 한계점에 관해 토의</sub></td>
+      <td rowspan="3"></td>
+      <td valign="top"><sub>- 학습한 알고리즘을 실제 데이터를 바탕으로 데이터 분석에 활용<br /><br />- 문제 정의 - 분석 기획 - EDA 및 분석 - 결과와 인사이트 도출 - 분석 보고서 작성 후 토의</sub></td>
     </tr>
     <tr>
-      <td align="center" valign="top"><a href="assets/readme/examples/math-kernel.png"><img src="assets/readme/examples/math-kernel.png" width="200" alt="SVM 커널 함수와 고차원 특징 공간" /></a><br /><br />SVM 커널 함수</td>
-      <td align="center" valign="top"><a href="assets/readme/examples/paper-pca.png"><img src="assets/readme/examples/paper-pca.png" width="200" alt="PCA 논문의 주성분 개수 선정 기준과 적용 결과" /></a><br /><br />PCA 주성분 논문 요약</td>
-      <td align="center" valign="top"><a href="assets/readme/examples/analysis-eda.png"><img src="assets/readme/examples/analysis-eda.png" width="200" alt="SVM 미니 프로젝트의 학습 데이터 EDA 코드와 시각화 결과" /></a><br /><br />SVM 미니 프로젝트 코드</td>
+      <td align="center" valign="top"><a href="assets/readme/examples/math-likelihood.png"><img src="assets/readme/examples/math-likelihood.png" width="140" alt="베이지안 분류기의 우도와 로그우도" /></a><br /><br />베이지안 분류기의<br />우도와 로그우도</td>
+      <td align="center" valign="top"><a href="assets/readme/examples/paper-sentiment.png"><img src="assets/readme/examples/paper-sentiment.png" width="140" alt="Naive Bayes 기반 감성분석 논문 사례 정리" /></a><br /><br />Naive Bayes 기반<br />감성분석 논문 사례 정리</td>
+      <td align="center" valign="top"><a href="assets/readme/examples/analysis-bayesian.png"><img src="assets/readme/examples/analysis-bayesian.png" width="140" alt="Bayesian Network 적용 미니 프로젝트 보고서" /></a><br /><br />Bayesian Network 적용<br />미니 프로젝트 보고서</td>
+    </tr>
+    <tr>
+      <td align="center" valign="top"><a href="assets/readme/examples/math-kernel.png"><img src="assets/readme/examples/math-kernel.png" width="140" alt="SVM 커널 함수" /></a><br /><br />SVM 커널 함수</td>
+      <td align="center" valign="top"><a href="assets/readme/examples/paper-pca.png"><img src="assets/readme/examples/paper-pca.png" width="140" alt="PCA 주성분 논문 요약" /></a><br /><br />PCA 주성분 논문 요약</td>
+      <td align="center" valign="top"><a href="assets/readme/examples/analysis-eda.png"><img src="assets/readme/examples/analysis-eda.png" width="140" alt="SVM 미니 프로젝트 코드" /></a><br /><br />SVM 미니 프로젝트 코드</td>
     </tr>
   </tbody>
 </table>
 
 <br />
 
-### 사용 툴
-
-<p><img src="assets/readme/tools/python.svg" width="32" height="32" alt="Python" /> <strong>Python</strong><br />
-<sub>데이터 EDA · 분석 · 모델링 · 시각화 · 통계 분석</sub></p>
-
-<p><img src="assets/readme/tools/postgresql.svg" width="32" height="32" alt="PostgreSQL" /> <strong>PostgreSQL</strong><br />
-<sub>데이터 ETL · 조회 · 분석</sub></p>
-
-<p><img src="assets/readme/tools/notion.svg" width="32" height="32" alt="Notion" /> <strong>Notion</strong><br />
-<sub>일정 관리 · 협업 · 산출물 기록 · 보고서 작성</sub></p>
-
-<br />
-
-### 참여 팀원
-
-| 팀원 | GitHub |
-|---|---|
-| 박중현 | [JHPark-kor](https://github.com/JHPark-kor) |
-| 강재성 | [jaesung0306](https://github.com/jaesung0306) |
-| 신정윤 | [wjddbsl03](https://github.com/wjddbsl03) |
+<table>
+  <tr>
+    <td width="60%" valign="top">
+      <h2>사용 툴</h2>
+      <h3><img src="assets/readme/tools/python.svg" width="48" height="48" alt="Python" /> Python</h3>
+      <p><sub>데이터 EDA · 분석 · 모델링 · 시각화 · 통계 분석</sub></p>
+      <h3><img src="assets/readme/tools/postgresql.svg" width="48" height="48" alt="PostgreSQL" /> PostgreSQL</h3>
+      <p><sub>데이터 ETL · 조회 · 분석</sub></p>
+      <h3><img src="assets/readme/tools/notion.svg" width="48" height="48" alt="Notion" /> Notion</h3>
+      <p><sub>일정 관리 · 협업 · 산출물 기록 · 보고서 작성</sub></p>
+    </td>
+    <td width="40%" valign="top">
+      <h2>참여 팀원</h2>
+      <h3>박중현</h3>
+      <p><a href="https://github.com/JHPark-kor">JHPark-kor</a></p>
+      <h3>강재성</h3>
+      <p><a href="https://github.com/jaesung0306">jaesung0306</a></p>
+      <h3>신정윤</h3>
+      <p><a href="https://github.com/wjddbsl03">wjddbsl03</a></p>
+    </td>
+  </tr>
+</table>
 
 <br /><br />
 
