@@ -4,21 +4,43 @@
 
 〈배우는 내용과 알고리즘별 3주 진행 방식을 담을 짧은 개요〉
 
-<!-- 소개 문구와 실제 이미지는 추후 확정한다. 가능하면 같은 알고리즘의 자료 3종을 사용한다. -->
-<!-- 이미지와 아래 설명으로 진행 방식을 보여주며, 별도 Study Flow 섹션은 두지 않는다. -->
+<!-- 사용자 제공 과제 사진을 유형별 두 장씩 배치한다. 별도 Study Flow 섹션은 두지 않는다. -->
 
-| 1주차 · 수학 원리 | 2주차 · 논문·사례 | 3주차 · 데이터 적용 |
-|---|---|---|
-| 〈수학 필기 예시 이미지〉 | 〈논문 리뷰 예시 이미지〉 | 〈분석 결과 예시 이미지〉 |
-| 〈사진 아래 설명〉 | 〈사진 아래 설명〉 | 〈사진 아래 설명〉 |
+<table>
+  <thead>
+    <tr>
+      <th width="33%">1주차 · 수학 원리</th>
+      <th width="33%">2주차 · 논문·사례</th>
+      <th width="33%">3주차 · 데이터 적용</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center" valign="top"><a href="assets/readme/examples/math-likelihood.png"><img src="assets/readme/examples/math-likelihood.png" width="260" alt="수학 필기: 우도 계산의 언더플로와 로그우도" /></a><br /><sub>우도와 로그우도 필기</sub></td>
+      <td align="center" valign="top"><a href="assets/readme/examples/paper-sentiment.png"><img src="assets/readme/examples/paper-sentiment.png" width="260" alt="논문 리뷰: 오피니언 마이닝 절차와 감성 판별 시스템" /></a><br /><sub>감성 분석 논문 리뷰</sub></td>
+      <td align="center" valign="top"><a href="assets/readme/examples/analysis-bayesian.png"><img src="assets/readme/examples/analysis-bayesian.png" width="260" alt="분석 보고서: 베이지안 네트워크 기반 기초 문화예술 관람 의향 분석" /></a><br /><sub>Bayesian 적용 분석 보고서</sub></td>
+    </tr>
+    <tr>
+      <td align="center" valign="top"><a href="assets/readme/examples/math-kernel.png"><img src="assets/readme/examples/math-kernel.png" width="260" alt="수학 필기: SVM 커널 함수와 고차원 특징 공간" /></a><br /><sub>SVM 커널 함수 필기</sub></td>
+      <td align="center" valign="top"><a href="assets/readme/examples/paper-pca.png"><img src="assets/readme/examples/paper-pca.png" width="260" alt="논문 리뷰: PCA 절차와 주성분 개수 선정 기준 및 적용 결과" /></a><br /><sub>PCA 논문의 주성분 선정 기준</sub></td>
+      <td align="center" valign="top"><a href="assets/readme/examples/analysis-eda.png"><img src="assets/readme/examples/analysis-eda.png" width="260" alt="분석 노트북: 학습 데이터 EDA 코드와 히스토그램 및 상자 그림" /></a><br /><sub>학습 데이터 EDA 코드와 결과</sub></td>
+    </tr>
+  </tbody>
+</table>
+
+<p><sub>실제 과제 사진을 유형별 두 장씩 모았습니다. 이미지를 누르면 원본 크기로 볼 수 있습니다.</sub></p>
 
 ### 주 사용 툴
 
-| 도구 | 활용 |
-|---|---|
-| Python | 〈활용 내용〉 |
-| PostgreSQL | 〈활용 내용〉 |
-| Notion | 〈활용 내용〉 |
+<table>
+  <tbody>
+    <tr>
+      <td width="240" align="center"><img src="assets/readme/tools/python.svg" width="48" height="48" alt="Python" /><br /><strong>Python</strong><br /><sub>〈활용 내용〉</sub></td>
+      <td width="240" align="center"><img src="assets/readme/tools/postgresql.svg" width="48" height="48" alt="PostgreSQL" /><br /><strong>PostgreSQL</strong><br /><sub>〈활용 내용〉</sub></td>
+      <td width="240" align="center"><img src="assets/readme/tools/notion.svg" width="48" height="48" alt="Notion" /><br /><strong>Notion</strong><br /><sub>〈활용 내용〉</sub></td>
+    </tr>
+  </tbody>
+</table>
 
 ### 참여 팀원
 
