@@ -53,7 +53,7 @@
 ## Study Log (스터디 기록)
 
 <!-- 동일 알고리즘은 rowspan으로 묶는다. 주차를 추가할 때 해당 rowspan도 함께 갱신한다. -->
-<!-- 기존 기록과 확인 필요 표시는 유지하며, 이번 변경에서는 제출 현황을 새로 판정하지 않는다. -->
+<!-- 제출 여부는 원본 파일을 확인한 주차만 갱신한다. -->
 
 <table>
   <thead>
@@ -106,10 +106,22 @@
     </tr>
     <tr>
       <td>W9</td>
-      <td><a href="algorithms/bayesian">Bayesian</a></td>
+      <td rowspan="3"><a href="algorithms/bayesian/README.md">Bayesian</a></td>
       <td>Bayesian 수학 원리 학습</td>
-      <td><a href="algorithms/bayesian/math_theory/files/w9_bayesian_math_theory_박중현.pdf">수학 필기 PDF</a></td>
-      <td>회의록 파일 추가 필요</td>
+      <td><a href="algorithms/bayesian/math_theory/README.md">상세 내용</a> · 3명 수학 자료</td>
+      <td>회의록 연결 확인 필요</td>
+    </tr>
+    <tr>
+      <td>W10</td>
+      <td>Bayesian 논문/사례 리뷰</td>
+      <td><a href="algorithms/bayesian/paper_review/README.md">상세 내용</a> · 3명 논문 리뷰</td>
+      <td><a href="meetings/w10_bayesian_paper_review.md">회의록</a></td>
+    </tr>
+    <tr>
+      <td>W11</td>
+      <td>Bayesian 적용 분석</td>
+      <td><a href="algorithms/bayesian/analysis/README.md">상세 내용</a> · 보고서 3명 / 노트북 2명</td>
+      <td>회의록 연결 확인 필요</td>
     </tr>
   </tbody>
 </table>

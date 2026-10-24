@@ -1,0 +1,4 @@
+# Keep downloaded originals byte-for-byte, including their existing line endings.
+**/files/*.pdf -text
+**/files/*.ipynb -text
+**/files/*.md -text
