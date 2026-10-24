@@ -9,57 +9,65 @@
 <table>
   <thead>
     <tr>
-      <th width="210">1주차<br />알고리즘 학습</th>
-      <th width="16">→</th>
-      <th width="210">2주차<br />논문·사례 리뷰</th>
-      <th width="16">→</th>
-      <th width="210">3주차<br />데이터 분석 미니 프로젝트</th>
+      <th width="300" align="left">1주차 →<br />알고리즘 학습</th>
+      <th width="300" align="left">2주차 →<br />논문·사례 리뷰</th>
+      <th width="300" align="left">3주차<br />데이터 분석 미니 프로젝트</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td valign="top"><sub>- 알고리즘의 수학적 구현 원리 학습</sub></td>
-      <td rowspan="3"></td>
       <td valign="top"><sub>- 알고리즘을 활용한 논문 및 사례 보고서 리딩<br /><br />- 알고리즘의 활용 분야·사례 그리고 장단점과 한계점에 관해 토의</sub></td>
-      <td rowspan="3"></td>
       <td valign="top"><sub>- 학습한 알고리즘을 실제 데이터를 바탕으로 데이터 분석에 활용<br /><br />- 문제 정의 - 분석 기획 - EDA 및 분석 - 결과와 인사이트 도출 - 분석 보고서 작성 후 토의</sub></td>
     </tr>
     <tr>
-      <td align="center" valign="top"><a href="assets/readme/examples/math-likelihood.png"><img src="assets/readme/examples/math-likelihood.png" width="140" alt="베이지안 분류기의 우도와 로그우도" /></a><br /><br />베이지안 분류기의<br />우도와 로그우도</td>
-      <td align="center" valign="top"><a href="assets/readme/examples/paper-sentiment.png"><img src="assets/readme/examples/paper-sentiment.png" width="140" alt="Naive Bayes 기반 감성분석 논문 사례 정리" /></a><br /><br />Naive Bayes 기반<br />감성분석 논문 사례 정리</td>
-      <td align="center" valign="top"><a href="assets/readme/examples/analysis-bayesian.png"><img src="assets/readme/examples/analysis-bayesian.png" width="140" alt="Bayesian Network 적용 미니 프로젝트 보고서" /></a><br /><br />Bayesian Network 적용<br />미니 프로젝트 보고서</td>
-    </tr>
-    <tr>
-      <td align="center" valign="top"><a href="assets/readme/examples/math-kernel.png"><img src="assets/readme/examples/math-kernel.png" width="140" alt="SVM 커널 함수" /></a><br /><br />SVM 커널 함수</td>
-      <td align="center" valign="top"><a href="assets/readme/examples/paper-pca.png"><img src="assets/readme/examples/paper-pca.png" width="140" alt="PCA 주성분 논문 요약" /></a><br /><br />PCA 주성분 논문 요약</td>
-      <td align="center" valign="top"><a href="assets/readme/examples/analysis-eda.png"><img src="assets/readme/examples/analysis-eda.png" width="140" alt="SVM 미니 프로젝트 코드" /></a><br /><br />SVM 미니 프로젝트 코드</td>
+      <td align="center" valign="top">
+        <a href="assets/readme/examples/math-likelihood.png"><img src="assets/readme/examples/math-likelihood.png" height="160" alt="베이지안 분류기의 우도와 로그우도" /></a><br />
+        베이지안 분류기의<br />우도와 로그우도<br /><br />
+        <a href="assets/readme/examples/math-kernel.png"><img src="assets/readme/examples/math-kernel.png" height="160" alt="SVM 커널 함수" /></a><br />
+        SVM 커널 함수
+      </td>
+      <td align="center" valign="top">
+        <a href="assets/readme/examples/paper-sentiment.png"><img src="assets/readme/examples/paper-sentiment.png" height="160" alt="Naive Bayes 기반 감성분석 논문 사례 정리" /></a><br />
+        Naive Bayes 기반<br />감성분석 논문 사례 정리<br /><br />
+        <a href="assets/readme/examples/paper-pca.png"><img src="assets/readme/examples/paper-pca.png" height="160" alt="PCA 주성분 논문 요약" /></a><br />
+        PCA 주성분 논문 요약
+      </td>
+      <td align="center" valign="top">
+        <a href="assets/readme/examples/analysis-bayesian.png"><img src="assets/readme/examples/analysis-bayesian.png" height="160" alt="Bayesian Network 적용 미니 프로젝트 보고서" /></a><br />
+        Bayesian Network 적용<br />미니 프로젝트 보고서<br /><br />
+        <a href="assets/readme/examples/analysis-eda.png"><img src="assets/readme/examples/analysis-eda.png" height="160" alt="SVM 미니 프로젝트 코드" /></a><br />
+        SVM 미니 프로젝트 코드
+      </td>
     </tr>
   </tbody>
 </table>
 
 <br />
 
+## 사용 툴 · 참여 팀원
+
 <table>
-  <tr>
-    <td width="60%" valign="top">
-      <h2>사용 툴</h2>
-      <h3><img src="assets/readme/tools/python.svg" width="48" height="48" alt="Python" /> Python</h3>
-      <p><sub>데이터 EDA · 분석 · 모델링 · 시각화 · 통계 분석</sub></p>
-      <h3><img src="assets/readme/tools/postgresql.svg" width="48" height="48" alt="PostgreSQL" /> PostgreSQL</h3>
-      <p><sub>데이터 ETL · 조회 · 분석</sub></p>
-      <h3><img src="assets/readme/tools/notion.svg" width="48" height="48" alt="Notion" /> Notion</h3>
-      <p><sub>일정 관리 · 협업 · 산출물 기록 · 보고서 작성</sub></p>
-    </td>
-    <td width="40%" valign="top">
-      <h2>참여 팀원</h2>
-      <h3>박중현</h3>
-      <p><a href="https://github.com/JHPark-kor">JHPark-kor</a></p>
-      <h3>강재성</h3>
-      <p><a href="https://github.com/jaesung0306">jaesung0306</a></p>
-      <h3>신정윤</h3>
-      <p><a href="https://github.com/wjddbsl03">wjddbsl03</a></p>
-    </td>
-  </tr>
+  <thead>
+    <tr>
+      <th width="600" align="left">사용 툴</th>
+      <th width="300" align="left">참여 팀원</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td valign="top">
+        <p><img src="assets/readme/tools/python.svg" width="48" height="48" alt="" /> <strong>Python</strong><br /><sub>데이터 EDA · 분석 · 모델링 · 시각화 · 통계 분석</sub></p>
+        <p><img src="assets/readme/tools/postgresql.svg" width="48" height="48" alt="" /> <strong>PostgreSQL</strong><br /><sub>데이터 ETL · 조회 · 분석</sub></p>
+        <p><img src="assets/readme/tools/notion.svg" width="48" height="48" alt="" /> <strong>Notion</strong><br /><sub>일정 관리 · 협업 · 산출물 기록 · 보고서 작성</sub></p>
+      </td>
+      <td valign="top">
+        <p><strong>박중현</strong><br /><sub><a href="https://github.com/JHPark-kor">JHPark-kor</a></sub></p>
+        <p><strong>강재성</strong><br /><sub><a href="https://github.com/jaesung0306">jaesung0306</a></sub></p>
+        <p><strong>신정윤</strong><br /><sub><a href="https://github.com/wjddbsl03">wjddbsl03</a></sub></p>
+      </td>
+    </tr>
+  </tbody>
 </table>
 
 <br /><br />
@@ -151,32 +159,29 @@
 
 <br /><br />
 
-## Side Projects (사이드 프로젝트)
+## 사이드 프로젝트
 
-### 01. Agent AI 기반 데이터 분석 EDA 자동화 플랫폼
+### 1. Agent AI 기반 데이터 분석 EDA 자동화 플랫폼 — DataPrep Studio
 
-<!-- 개요는 과제발굴정의서를 확인한 뒤 작성한다. 목표를 이미 달성한 성과처럼 기재하지 않는다. -->
+데이터 파악·품질 점검·전처리를 지원하고, 메타데이터 사전과 전처리 분석 보고서 초안을 작성하는 도구.
 
-#### 개요
+**문제:** 낯선 데이터 이해, 반복 점검·전처리부터 코드·메타데이터·보고서 작성까지 분석 준비에 많은 시간이 듭니다.
 
-| 항목 | 내용 |
-|---|---|
-| 문제 정의 | 〈과제발굴정의서 기반 내용〉 |
-| 목표 | 〈과제발굴정의서 기반 내용〉 |
-| 기대효과 | 〈과제발굴정의서 기반 내용〉 |
+**솔루션:** 파일을 올리면 Agent AI가 진단·EDA를 자연어로 설명합니다. 사용자가 검토·승인하면 데이터 테이블·메타데이터 사전·전처리 분석 보고서 초안을 받습니다.
 
-#### 사용 사례
+<table>
+  <tbody>
+    <tr>
+      <td width="25%" valign="top" align="center"><strong>데이터 파악</strong><br /><a href="projects/eda-automation/images/01-data-overview.png"><img src="projects/eda-automation/images/01-data-overview.png" width="180" alt="데이터 개요와 컬럼 의미 설명" /></a><br /><sub>전체 구조·의미 확인</sub></td>
+      <td width="25%" valign="top" align="center"><strong>변수 진단</strong><br /><a href="projects/eda-automation/images/02-variable-profile.png"><img src="projects/eda-automation/images/02-variable-profile.png" width="180" alt="결제금액의 분포와 결측 진단" /></a><br /><sub>분포·결측·이상치 점검</sub></td>
+      <td width="25%" valign="top" align="center"><strong>정제 검토</strong><br /><a href="projects/eda-automation/images/03-cleaning-recommendations.png"><img src="projects/eda-automation/images/03-cleaning-recommendations.png" width="180" alt="자료형과 중복 문제의 정제 권장안" /></a><br /><sub>근거·권장 처리 확인</sub></td>
+      <td width="25%" valign="top" align="center"><strong>결과 보고</strong><br /><a href="projects/eda-automation/images/07-review-report.png"><img src="projects/eda-automation/images/07-review-report.png" width="180" alt="정제 미적용 예시의 결정·적용 여부·보류 보고" /></a><br /><sub>결정·적용 여부·보류 기록</sub></td>
+    </tr>
+  </tbody>
+</table>
 
-| 실행 방법 | 주요 결과 페이지 | 산출물 결과 |
-|---|---|---|
-| 〈실제 실행 화면 이미지〉 | 〈실제 결과 화면 이미지〉 | 〈실제 산출물 이미지〉 |
-| 〈사진 아래 설명〉 | 〈사진 아래 설명〉 | 〈사진 아래 설명〉 |
+[실행 방법·코드](projects/eda-automation/README.md) · [과제 정의서](projects/eda-automation/files/project-definition.pdf)
 
-#### 관련 자료
+### 2. Agent AI 기반 Notion - GitHub 과제물 연동 자동화 프로세스 구축
 
-| 자료 | 링크 |
-|---|---|
-| 과제발굴정의서 | 〈문서 링크〉 |
-| 배포 코드 | 〈프로젝트 저장소 링크〉 |
-
-<!-- 배포 코드의 실행 방법과 코드별 설명서는 연결할 프로젝트 저장소의 메인 README에 둔다. -->
+[코드 다운로드](projects/notion-github-sync/files/notion-github-sync-source.zip)
