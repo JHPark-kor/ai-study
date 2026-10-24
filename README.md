@@ -31,7 +31,7 @@
       <td rowspan="2"></td>
       <td align="center" valign="top"><a href="assets/readme/examples/paper-sentiment.png"><img src="assets/readme/examples/paper-sentiment.png" width="200" alt="Naive Bayes 기반 신조어 감성분석 논문 사례" /></a><br /><br /><strong>Naive Bayes 기반<br />감성분석 논문 사례 정리</strong></td>
       <td rowspan="2"></td>
-      <td align="center" valign="top"><a href="assets/readme/examples/analysis-bayesian.png"><img src="assets/readme/examples/analysis-bayesian.png" width="200" alt="Bayesian Network를 적용한 문화예술 관람 의향 분석 보고서" /></a><br /><br /><strong>Bayesian Network를 적용한<br />미니 프로젝트 보고서</strong></td>
+      <td align="center" valign="top"><a href="assets/readme/examples/analysis-bayesian.png"><img src="assets/readme/examples/analysis-bayesian.png" width="200" alt="Bayesian Network를 적용한 문화예술 관람 의향 분석 보고서" /></a><br /><br /><strong>Bayesian Network 적용<br />미니 프로젝트 보고서</strong></td>
     </tr>
     <tr>
       <td align="center" valign="top"><a href="assets/readme/examples/math-kernel.png"><img src="assets/readme/examples/math-kernel.png" width="200" alt="SVM 커널 함수와 고차원 특징 공간" /></a><br /><br /><strong>SVM 커널 함수</strong></td>
