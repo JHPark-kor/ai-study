@@ -10,8 +10,8 @@
   <thead>
     <tr>
       <th width="33%">1주차 · 수학 원리</th>
-      <th width="33%">2주차 · 논문·사례</th>
-      <th width="33%">3주차 · 데이터 적용</th>
+      <th width="33%">2주차 · 논문·사례 리뷰</th>
+      <th width="33%">3주차 · 데이터분석 미니 프로젝트</th>
     </tr>
   </thead>
   <tbody>
