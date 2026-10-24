@@ -1,0 +1,2 @@
+# Preserve the exact bytes of downloaded meeting originals.
+files/*.md -text

@@ -1,31 +1,34 @@
-# SVM
+# SVM - Paper Review
 
-## 논문 리뷰
+W7 논문 리뷰 자료입니다. 주차 날짜는 2026-08-29이며, 세 사람의 개인 과제는 모두 완료로 표시되어 있습니다. [Notion W7](https://app.notion.com/p/3c4917c0e64080b899c8e469becb91a1)
 
-| 작성자 | 논문 출처 | 키워드 | PDF | Notion |
+| 작성자 | 논문 | 개인 리뷰 PDF | Notion 본문 | 개인 과제 |
 |---|---|---|---|---|
-| 박중현 | 유지현·고진환(2025), 「초음파 어레이를 활용한 One-Class SVM 낙상 탐지」 | One-Class SVM, 이상치 탐지, 낙상 탐지, 초음파 어레이 | [PDF](./files/w7_svm_paper_review_박중현.pdf) | [Notion](https://app.notion.com/p/w7_svm_PaperReview-3ca917c0e640803181a8fb2ca4c71de6?pvs=25) |
-| 강재성 | Baly, R. & Hajj, H. (2012), *Wafer Classification Using Support Vector Machines* | 반도체 수율 예측, 웨이퍼 분류, RBF SVM, False Negative | [PDF](./files/w7_wafer_classification_jaesung.pdf) | [Notion](https://app.notion.com/p/3cb917c0e64080c39945d7e1ed7cb300?pvs=25) |
-| 신정윤 | *Sentiment Analysis for IMDb Movie Review Using SVM Method* | 감성 분석, IMDb Review, SVM, BoW, TF-IDF | [PDF](./files/w7_imdb_sentiment_svm_wjddbsl03.pdf) | [Notion](https://app.notion.com/p/w7-_-SVM-3ca917c0e6408039896cc410effdb6e4?pvs=25) |
+| 박중현 | 유지현·고진환(2025), 「초음파 어레이를 활용한 One-Class SVM 낙상 탐지」 | [리뷰](files/w7_svm_paper_review_박중현.pdf) | [본문·이미지](files/w7_svm_paper_review_박중현.md) | [Notion](https://app.notion.com/p/3ca917c0e640803181a8fb2ca4c71de6) |
+| 강재성 | Baly, R. & Hajj, H. (2012), *Wafer Classification Using Support Vector Machines* | [리뷰](files/w7_wafer_classification_jaesung.pdf) | [본문](files/w7_svm_paper_review_강재성.md) | [Notion](https://app.notion.com/p/3cb917c0e64080c39945d7e1ed7cb300) |
+| 신정윤 | *Sentiment Analysis for IMDb Movie Review Using SVM Method* | [리뷰](files/w7_svm_paper_review_신정윤.pdf) · [논문 원문](files/w7_imdb_sentiment_svm_wjddbsl03.pdf) | [본문](files/w7_svm_paper_review_신정윤.md) | [Notion](https://app.notion.com/p/3ca917c0e6408039896cc410effdb6e4) |
 
 ## 요약
 
 ### 박중현
 
-- 낙상 탐지에서 이상 데이터 수집이 어렵다는 문제를 One-Class SVM으로 다룬 논문이다.
-- 초음파 어레이 신호를 이미지 형태로 변환하고 TC-CNN, OC-CNN, OC-SVM을 비교했다.
-- RBF 기반 OC-SVM은 정상 데이터만 학습해도 높은 탐지 성능을 보여 이상치 탐지 프로젝트로 이어지기 좋다.
+- 낙상 탐지에서 이상 데이터 수집이 어렵다는 문제를 정상 데이터만 학습하는 One-Class SVM으로 다룬다.
+- 초음파 어레이 신호를 이미지로 변환하고 TC-CNN, OC-CNN, OC-SVM을 비교했다.
+- RBF 기반 OC-SVM은 높은 탐지 성능을 보였지만 모델별 학습 데이터 구성이 달라 결과를 같은 조건의 비교로 해석해서는 안 된다.
+- 정상 데이터 중심의 학습이 가능한지 확인하는 이상치 탐지 프로젝트로 연결한다.
 
 ### 강재성
 
-- 반도체 중간 공정 데이터를 이용해 웨이퍼를 Low-Yield / High-Yield로 조기 분류하는 연구다.
-- 실제 IC 제조 데이터에 RBF SVM을 적용하고 Decision Tree, kNN, PLS, GRNN과 비교했다.
-- False Negative를 낮추는 것이 핵심이며, 이는 제조 공정의 리스크 관리 문제와 직접 연결된다.
-- SECOM 반도체 데이터처럼 공정 변수 기반 품질 예측 데이터로 미니 프로젝트를 구성하기 좋다.
+- 반도체 중간 공정 데이터로 웨이퍼를 Low-Yield / High-Yield로 조기 분류하는 연구다.
+- 실제 IC 제조 데이터에 RBF SVM을 적용하고 교차검증으로 파라미터를 선택했다.
+- 불량을 정상으로 판단하는 False Negative를 줄이는 것이 중요하며, 변수 선택과 공정 변화에 따른 모델 갱신도 살펴본다.
+- 기업의 원자료가 공개되지 않은 한계가 있어 SECOM 공정 데이터로 후속 실험을 구성한다.
 
 ### 신정윤
 
-- IMDb 영화 리뷰를 긍정/부정으로 분류하는 SVM 기반 감성 분석 연구다.
-- BoW와 TF-IDF로 텍스트를 벡터화하고 Grid Search로 SVM 하이퍼파라미터를 탐색했다.
-- TF-IDF 기반 SVM이 BoW보다 높은 성능을 보여 텍스트 분류에서 특성 표현 방식의 중요성을 확인했다.
-- 영화 리뷰나 상품 리뷰 데이터로 BoW와 TF-IDF 성능을 비교하는 프로젝트로 확장하기 좋다.
+- IMDb 영화 리뷰 50,000건을 긍정·부정으로 분류하는 SVM 기반 감성 분석 연구다.
+- 텍스트 전처리 후 BoW와 TF-IDF로 벡터화하고 Grid Search로 SVM 파라미터를 탐색했다.
+- 리뷰에서는 TF-IDF 기반 SVM이 BoW보다 높은 성능을 보였다고 정리하며, 특성 표현 방식의 중요성을 설명한다.
+- 단어 순서와 문맥을 충분히 반영하지 못하는 한계, 정확도 외 지표와 오분류 분석의 필요성도 짚는다.
+
+추가 수학 학습 항목과 개인별 역할은 [W7 후속 학습 기록](../../../meetings/w7_svm_paper_review.md)에 남겼습니다.

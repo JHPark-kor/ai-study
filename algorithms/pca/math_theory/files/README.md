@@ -1,28 +1,7 @@
-# PCA Handwritten Notes
+# PCA 수학 원본 자료
 
-PCA 수학 원리 공부 중 작성한 손필기 사진, 수식 이미지, PDF를 저장하는 폴더입니다.
+| 주차 | 스터디원 | 파일 |
+| --- | --- | --- |
+| W3 | 박중현 | [수학 손필기 PDF · 6쪽](w3_pca_math_theory_박중현.pdf) |
 
-## What Goes Here?
-
-아래 같은 파일을 넣습니다.
-
-- 손으로 쓴 수학 노트 사진
-- 태블릿 필기 이미지
-- 여러 장을 묶은 PDF
-- 발표 때 사용한 수식 캡처
-
-## File Name Rule
-
-```text
-pca_내용_작성자_번호.확장자
-```
-
-예시:
-
-```text
-pca_covariance_pjh_01.jpg
-pca_eigenvector_jaesung_01.jpg
-pca_projection_wjddbsl03_01.pdf
-```
-
-이미지를 넣은 뒤에는 상위 [README.md](../README.md)의 `Handwritten Notes` 표에도 링크를 추가합니다.
+원본 PDF의 내용은 수정하지 않았다. 담당자·출처와 중복 확인 결과는 [상위 기록](../README.md)에 정리한다.

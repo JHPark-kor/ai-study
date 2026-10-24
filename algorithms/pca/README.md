@@ -1,39 +1,11 @@
 # PCA
 
-PCA 알고리즘의 3주 스터디 결과를 정리하는 폴더입니다.
+W3~W5에 PCA를 수학 원리, 논문·사례, 실제 데이터 적용의 순서로 공부했습니다.
 
-## 3-Week Cycle
-
-| 단계 | 폴더 | 내용 | 상태 |
+| 주차 | 과제 유형 | 확인된 결과물 | Notion 원본 |
 |---|---|---|---|
-| 1주차 | [math_theory](math_theory/README.md) | 단단한 머신러닝 기반 PCA 수학 원리 정리 | 완료 |
-| 2주차 | [paper_review](paper_review/README.md) | PCA 관련 논문/사례 리뷰 | 완료 |
-| 3주차 | [analysis](analysis/README.md) | PCA를 작은 데이터셋에 적용한 분석/프로젝트 | 정리 중 |
+| W3 | [math_theory](math_theory/README.md) | 박중현 손필기 PDF 1개. 공통 첨부와 동일 내용이라 중복 제외. 강재성·신정윤 개인 카드에는 본문·첨부 미확인 | [W3](https://app.notion.com/p/3c4917c0e64080feadadf827fd8c95df) |
+| W4 | [paper_review](paper_review/README.md) | 3명 리뷰 PDF 4개: 박중현 2개, 강재성·신정윤 각 1개 | [W4](https://app.notion.com/p/3c4917c0e64080938f63cc1d399a1ef6) |
+| W5 | [analysis](analysis/README.md) | 보고서 4개·노트북 4개: 박중현·강재성 각 1쌍, 신정윤 2쌍. 저장 결과·재현성 확인 사항은 하위 기록 참고 | [W5](https://app.notion.com/p/3c4917c0e64080ce828fc42dfd3a8aae) |
 
-## What Goes Here?
-
-이 `README.md`는 PCA 폴더의 목차입니다.
-
-여기에는 자세한 수식이나 프로젝트 코드를 모두 쓰지 않습니다. 대신 아래 내용을 한눈에 볼 수 있게 정리합니다.
-
-- PCA를 몇 주차에 공부했는지
-- 수학 원리 정리는 어디에 있는지
-- 페이퍼 리뷰는 어디에 있는지
-- 프로젝트 결과는 어디에 있는지
-- Notion 원본 링크가 있다면 어디인지
-
-## Notion Links
-
-| 주차 | Notion |
-|---|---|
-| W3 PCA Theory | Notion 링크 추가 |
-| W4 PCA Thesis / Paper | Notion 링크 추가 |
-| W5 PCA Analysis | Notion 링크 추가 |
-
-## Final Outputs
-
-| 유형 | 위치 |
-|---|---|
-| 수학 원리 | [math_theory](math_theory/README.md) |
-| 페이퍼 리뷰 | [paper_review](paper_review/README.md) |
-| 분석/프로젝트 | [analysis](analysis/README.md) |
+각 과제의 `files/`에는 제출 원본을 보존하고, `README.md`에는 출처와 자료 상태를 기록합니다. 수학 자료는 요약을 생략하고 논문·분석 자료만 짧게 정리했습니다. Notion 상태값만으로 완료 여부를 판단하지 않았습니다.

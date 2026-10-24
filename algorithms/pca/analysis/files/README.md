@@ -1,7 +1,10 @@
-# PCA Analysis Files
+# PCA analysis 원본 파일
 
-Notion에 제출된 PCA 분석 과제 파일을 저장하는 폴더입니다.
+W5 Notion에 제출된 보고서 4개와 노트북 4개입니다. 내용은 변경하지 않았으며 파일명에 주차·과제 유형·작성자를 통일했습니다. 요약, 출처와 재현성 확인 사항은 [상위 기록](../README.md)에 있습니다.
 
-자동화는 `analysis` 과제에서 제출된 보고서 PDF/MD와 노트북 IPYNB 파일을 이곳에 저장하고, 상위 `README.md`에 작성자별 요약과 파일 링크를 기록합니다.
-
-결과 이미지 파일은 기본 저장 대상에 포함하지 않습니다.
+| 작성자 / 주제 | 보고서 | 노트북 |
+|---|---|---|
+| 박중현 · 문화시설 접근성 | [PDF](w5_pca_analysis_박중현.pdf) | [IPYNB](w5_pca_analysis_박중현.ipynb) |
+| 강재성 · SECOM | [PDF](w5_pca_analysis_강재성.pdf) | [IPYNB](w5_pca_analysis_강재성.ipynb) |
+| 신정윤 · AI 의존도 | [PDF](w5_pca_analysis_신정윤_ai_dependency.pdf) | [IPYNB](w5_pca_analysis_신정윤_ai_dependency.ipynb) |
+| 신정윤 · 유방암 | [PDF](w5_pca_analysis_신정윤_breast_cancer.pdf) | [IPYNB](w5_pca_analysis_신정윤_breast_cancer.ipynb) |

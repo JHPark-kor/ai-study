@@ -70,46 +70,46 @@
       <td>W3</td>
       <td rowspan="3"><a href="algorithms/pca/README.md">PCA</a></td>
       <td>PCA 수학 원리 학습</td>
-      <td><a href="algorithms/pca/math_theory/README.md">상세 내용</a> · 결과 파일 확인 필요</td>
-      <td><a href="meetings/w3_pca_math_theory.md">회의록</a></td>
+      <td><a href="algorithms/pca/math_theory/README.md">상세 내용</a> · 수학 PDF 1명 / 2명 자료 미확인</td>
+      <td>원문 미확인</td>
     </tr>
     <tr>
       <td>W4</td>
       <td>PCA 논문/사례 리뷰</td>
-      <td><a href="algorithms/pca/paper_review/README.md">상세 내용</a> · 결과 파일 확인 필요</td>
-      <td><a href="meetings/w4_pca_paper_review.md">회의록</a></td>
+      <td><a href="algorithms/pca/paper_review/README.md">상세 내용</a> · 3명 리뷰 PDF 4개</td>
+      <td>원문 미확인</td>
     </tr>
     <tr>
       <td>W5</td>
       <td>PCA 적용 분석</td>
-      <td><a href="algorithms/pca/analysis/README.md">상세 내용</a> · 결과 파일 확인 필요</td>
-      <td><a href="meetings/w5_pca_analysis.md">회의록</a></td>
+      <td><a href="algorithms/pca/analysis/README.md">상세 내용</a> · 3명 보고서·노트북 4쌍</td>
+      <td>원문 미확인</td>
     </tr>
     <tr>
       <td>W6</td>
       <td rowspan="3"><a href="algorithms/svm/README.md">SVM</a></td>
       <td>SVM 수학 원리 학습</td>
-      <td><a href="algorithms/svm/math_theory/README.md">상세 내용</a> · 파일 확인 필요</td>
-      <td><a href="meetings/w6_svm_math_theory.md">회의록</a></td>
+      <td><a href="algorithms/svm/math_theory/README.md">상세 내용</a> · 3명 수학 PDF</td>
+      <td>원문 미확인</td>
     </tr>
     <tr>
       <td>W7</td>
       <td>SVM 논문/사례 리뷰</td>
-      <td><a href="algorithms/svm/paper_review/README.md">상세 내용</a></td>
-      <td><a href="meetings/w7_svm_paper_review.md">회의록</a></td>
+      <td><a href="algorithms/svm/paper_review/README.md">상세 내용</a> · 3명 리뷰 / 논문 원문 별도</td>
+      <td><a href="meetings/w7_svm_paper_review.md">후속 학습 기록</a></td>
     </tr>
     <tr>
       <td>W8</td>
       <td>SVM 적용 분석</td>
-      <td><a href="algorithms/svm/analysis/README.md">상세 내용</a> · 결과 파일 확인 필요</td>
-      <td><a href="meetings/w8_svm_analysis.md">회의록</a></td>
+      <td><a href="algorithms/svm/analysis/README.md">상세 내용</a> · 3명 보고서·노트북</td>
+      <td><a href="meetings/w8_svm_analysis.md">원문 확인 사항</a></td>
     </tr>
     <tr>
       <td>W9</td>
       <td rowspan="3"><a href="algorithms/bayesian/README.md">Bayesian</a></td>
       <td>Bayesian 수학 원리 학습</td>
       <td><a href="algorithms/bayesian/math_theory/README.md">상세 내용</a> · 3명 수학 자료</td>
-      <td>회의록 연결 확인 필요</td>
+      <td>원문 미확인</td>
     </tr>
     <tr>
       <td>W10</td>
@@ -121,7 +121,14 @@
       <td>W11</td>
       <td>Bayesian 적용 분석</td>
       <td><a href="algorithms/bayesian/analysis/README.md">상세 내용</a> · 보고서 3명 / 노트북 2명</td>
-      <td>회의록 연결 확인 필요</td>
+      <td><a href="meetings/w11_bayesian_analysis.md">회의록</a></td>
+    </tr>
+    <tr>
+      <td>W12</td>
+      <td>선형회귀</td>
+      <td>선형·로지스틱 회귀 수학 토의</td>
+      <td><a href="https://app.notion.com/p/3ef917c0e6408077907be85f4461eb26">Notion</a> · 개인 과제 첨부 미확인</td>
+      <td><a href="meetings/w12_linear_math_theory.md">회의록</a></td>
     </tr>
   </tbody>
 </table>

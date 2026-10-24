@@ -1,0 +1,4 @@
+# Preserve downloaded originals without automatic line-ending conversion.
+**/files/*.pdf -text
+**/files/*.ipynb -text
+**/files/*.md -text

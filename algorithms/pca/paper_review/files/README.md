@@ -1,5 +1,8 @@
-# PCA Paper Review Files
+# PCA paper_review 원본 파일
 
-Notion에 제출된 PCA 논문 리뷰 파일을 저장하는 폴더입니다.
+W4 Notion 개인 페이지에 첨부된 리뷰 PDF를 내용 변경 없이 보존합니다. 작성자별 설명과 출처는 [상위 기록](../README.md)에 있습니다.
 
-자동화는 `paper_review` 과제에서 제출된 PDF 또는 MD 파일을 이곳에 저장하고, 상위 `README.md`에 작성자별 요약과 파일 링크를 기록합니다.
+- [박중현 · 방법론](w4_pca_paper_review_박중현_방법론.pdf)
+- [박중현 · 복합지표](w4_pca_paper_review_박중현_복합지표.pdf)
+- [강재성 · 반도체 공정](w4_pca_paper_review_강재성.pdf)
+- [신정윤 · 북한 홍수·태풍 피해 추정](w4_pca_paper_review_신정윤.pdf)

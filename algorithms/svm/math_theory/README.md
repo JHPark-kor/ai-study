@@ -1,54 +1,15 @@
 # SVM - Math Theory
 
-SVM 수학 원리 공부 결과를 정리하는 곳입니다.
+W6 SVM 수학 원리 학습 자료입니다. 수학 자료는 별도 요약 없이 제출된 원본 PDF와 Notion 기록을 보존합니다.
 
-## What This File Is For
-
-이 `README.md`에는 SVM 수학 원리 공부의 목차와 핵심 요약을 남깁니다.
-
-손필기 사진 전체를 그대로 옮기는 곳이 아니라, 발표 자료와 손필기를 찾기 쉽게 연결하는 역할입니다.
-
-## Study Source
-
+- 주차 날짜: 2026-08-22
 - 교재: 단단한 머신러닝
-- 주제: SVM 수학 원리
-- Notion 과제 페이지: 링크 추가
+- [Notion W6](https://app.notion.com/p/3c4917c0e64080e3bc16d1c93afe02d9)
 
-## Current TODO
+| 작성자 | 원본 PDF | Notion 본문 | 개인 과제 | 제출 상태 |
+|---|---|---|---|---|
+| 박중현 | [14쪽 PDF](files/w6_svm_math_theory_박중현.pdf) | [본문](files/w6_svm_math_theory_박중현.md) | [Notion](https://app.notion.com/p/98f917c0e64083418bc201f63fa84949) | 완료 |
+| 강재성 | [6쪽 PDF](files/w6_svm_math_theory_강재성.pdf) | [본문](files/w6_svm_math_theory_강재성.md) | [Notion](https://app.notion.com/p/3e0917c0e640809fb96ae8a16d83ac9c) | 완료 |
+| 신정윤 | [11쪽 PDF](files/w6_svm_math_theory_신정윤.pdf) | [본문](files/w6_svm_math_theory_신정윤.md) | [Notion](https://app.notion.com/p/3c7917c0e64080f8b5ecfa39c9a39abf) | 완료 |
 
-| 담당자 | 내용 | 상태 | 자료 |
-|---|---|---|---|
-| 노랑고흐 | 라그랑주 승수법, CQP, KKT 조건 | 진행 중 | 링크 추가 |
-| JAESUNGKANG | 초평면이 `+1 / -1`로 정의되는 이유 | 진행 중 | 링크 추가 |
-| wjddbsl03 | 초평면의 안정적인 오차와 `+1 / -1` 관계 공식 유도 | 진행 중 | 링크 추가 |
-
-## Core Topics
-
-스터디가 끝난 뒤, 아래 항목을 짧게 정리합니다.
-
-- Hyperplane
-- Margin
-- Hard Margin SVM
-- Soft Margin SVM
-- Lagrange Multiplier
-- Convex Quadratic Programming
-- KKT Condition
-- Kernel Function
-
-## Handwritten Notes
-
-손필기 사진이나 PDF는 [files](files/README.md)에 저장합니다.
-
-| 내용 | 작성자 | 파일 |
-|---|---|---|
-| Lagrange / CQP / KKT | 노랑고흐 | 링크 추가 |
-| Hyperplane `+1 / -1` 의미 | JAESUNGKANG | 링크 추가 |
-| Margin 공식 유도 | wjddbsl03 | 링크 추가 |
-
-## Questions From Study
-
-스터디 시간에 나온 질문을 기록합니다.
-
-- 질문 1:
-- 질문 2:
-- 다음에 다시 확인할 내용:
+이후 보충 학습 항목과 담당자별 역할은 [W7 후속 학습 기록](../../../meetings/w7_svm_paper_review.md)에 정리되어 있습니다.
