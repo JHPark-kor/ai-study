@@ -2,6 +2,13 @@
 
 저희는 **다양한 알고리즘 기법과 데이터 분석 기반의 문제 해결**에 관심 있는 3인 스터디 팀입니다.
 
+스터디의 주 활동은 다음과 같습니다.
+
+1. AI/ML 알고리즘 학습
+2. 알고리즘이 사용된 사례(논문, 분석 보고서) 리뷰
+3. 알고리즘을 활용한 데이터 분석 · 모델링 미니 프로젝트 실습
+4. 사이드 프로젝트 (AI를 활용한 사회·업무 문제 해결)
+
 <br />
 
 ## 학습 커리큘럼
@@ -9,35 +16,35 @@
 <table>
   <thead>
     <tr>
-      <th width="300" align="left">1주차 →<br />알고리즘 학습</th>
-      <th width="300" align="left">2주차 →<br />논문·사례 리뷰</th>
-      <th width="300" align="left">3주차<br />데이터 분석 미니 프로젝트</th>
+      <th width="300" align="center"><h3>1주차<br />알고리즘 학습</h3></th>
+      <th width="300" align="center"><h3>2주차<br />논문·사례 리뷰</h3></th>
+      <th width="300" align="center"><h3>3주차<br />데이터 분석 미니 프로젝트</h3></th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td valign="top"><sub>- 알고리즘의 수학적 구현 원리 학습</sub></td>
-      <td valign="top"><sub>- 알고리즘을 활용한 논문 및 사례 보고서 리딩<br /><br />- 알고리즘의 활용 분야·사례 그리고 장단점과 한계점에 관해 토의</sub></td>
-      <td valign="top"><sub>- 학습한 알고리즘을 실제 데이터를 바탕으로 데이터 분석에 활용<br /><br />- 문제 정의 - 분석 기획 - EDA 및 분석 - 결과와 인사이트 도출 - 분석 보고서 작성 후 토의</sub></td>
+      <td valign="top">- 알고리즘의 수학적 구현 원리 학습</td>
+      <td valign="top">- 알고리즘을 활용한 논문 및 사례 보고서 리딩<br />- 알고리즘의 활용 분야·사례 그리고 장단점과 한계점에 관해 토의</td>
+      <td valign="top">- 학습한 알고리즘을 실제 데이터를 바탕으로 데이터 분석에 활용<br />- 문제 정의 - 분석 기획 - EDA 및 분석 - 결과와 인사이트 도출 - 분석 보고서 작성 후 토의</td>
     </tr>
     <tr>
       <td align="center" valign="top">
         <a href="assets/readme/examples/math-likelihood.png"><img src="assets/readme/examples/math-likelihood.png" height="160" alt="베이지안 분류기의 우도와 로그우도" /></a><br />
-        베이지안 분류기의<br />우도와 로그우도<br /><br />
+        <sub>베이지안 분류기의<br />우도와 로그우도</sub><br /><br />
         <a href="assets/readme/examples/math-kernel.png"><img src="assets/readme/examples/math-kernel.png" height="160" alt="SVM 커널 함수" /></a><br />
-        SVM 커널 함수
+        <sub>SVM 커널 함수</sub>
       </td>
       <td align="center" valign="top">
         <a href="assets/readme/examples/paper-sentiment.png"><img src="assets/readme/examples/paper-sentiment.png" height="160" alt="Naive Bayes 기반 감성분석 논문 사례 정리" /></a><br />
-        Naive Bayes 기반<br />감성분석 논문 사례 정리<br /><br />
+        <sub>Naive Bayes 기반<br />감성분석 논문 사례 정리</sub><br /><br />
         <a href="assets/readme/examples/paper-pca.png"><img src="assets/readme/examples/paper-pca.png" height="160" alt="PCA 주성분 논문 요약" /></a><br />
-        PCA 주성분 논문 요약
+        <sub>PCA 주성분 논문 요약</sub>
       </td>
       <td align="center" valign="top">
         <a href="assets/readme/examples/analysis-bayesian.png"><img src="assets/readme/examples/analysis-bayesian.png" height="160" alt="Bayesian Network 적용 미니 프로젝트 보고서" /></a><br />
-        Bayesian Network 적용<br />미니 프로젝트 보고서<br /><br />
+        <sub>Bayesian Network 적용<br />미니 프로젝트 보고서</sub><br /><br />
         <a href="assets/readme/examples/analysis-eda.png"><img src="assets/readme/examples/analysis-eda.png" height="160" alt="SVM 미니 프로젝트 코드" /></a><br />
-        SVM 미니 프로젝트 코드
+        <sub>SVM 미니 프로젝트 코드</sub>
       </td>
     </tr>
   </tbody>
@@ -48,23 +55,25 @@
 ## 사용 툴 · 참여 팀원
 
 <table>
-  <thead>
-    <tr>
-      <th width="600" align="left">사용 툴</th>
-      <th width="300" align="left">참여 팀원</th>
-    </tr>
-  </thead>
   <tbody>
     <tr>
       <td valign="top">
-        <p><img src="assets/readme/tools/python.svg" width="48" height="48" alt="" /> <strong>Python</strong><br /><sub>데이터 EDA · 분석 · 모델링 · 시각화 · 통계 분석</sub></p>
-        <p><img src="assets/readme/tools/postgresql.svg" width="48" height="48" alt="" /> <strong>PostgreSQL</strong><br /><sub>데이터 ETL · 조회 · 분석</sub></p>
-        <p><img src="assets/readme/tools/notion.svg" width="48" height="48" alt="" /> <strong>Notion</strong><br /><sub>일정 관리 · 협업 · 산출물 기록 · 보고서 작성</sub></p>
+        <h3><img src="assets/readme/tools/python.svg" width="56" height="56" alt="" /> Python</h3>
+        <p><sub>데이터 EDA · 분석 · 모델링 · 시각화 · 통계 분석</sub></p>
+        <h3><img src="assets/readme/tools/postgresql.svg" width="56" height="56" alt="" /> PostgreSQL</h3>
+        <p><sub>데이터 ETL · 조회 · 분석</sub></p>
+        <h3><img src="assets/readme/tools/notion.svg" width="56" height="56" alt="" /> Notion</h3>
+        <p><sub>일정 관리 · 협업 · 산출물 기록 · 보고서 작성</sub></p>
       </td>
-      <td valign="top">
-        <p><strong>박중현</strong><br /><sub><a href="https://github.com/JHPark-kor">JHPark-kor</a></sub></p>
-        <p><strong>강재성</strong><br /><sub><a href="https://github.com/jaesung0306">jaesung0306</a></sub></p>
-        <p><strong>신정윤</strong><br /><sub><a href="https://github.com/wjddbsl03">wjddbsl03</a></sub></p>
+      <td valign="top" align="center">
+        <h3>박중현</h3>
+        <p><a href="https://github.com/JHPark-kor">JHPark-kor</a></p>
+        <br />
+        <h3>강재성</h3>
+        <p><a href="https://github.com/jaesung0306">jaesung0306</a></p>
+        <br />
+        <h3>신정윤</h3>
+        <p><a href="https://github.com/wjddbsl03">wjddbsl03</a></p>
       </td>
     </tr>
   </tbody>
