@@ -52,26 +52,43 @@
 
 <br />
 
-## 사용 툴 · 참여 팀원
+## 사용 툴
 
 <table>
   <tbody>
     <tr>
-      <td valign="top">
-        <h3><img src="assets/readme/tools/python.svg" width="56" height="56" alt="" /> Python</h3>
-        <p><sub>데이터 EDA · 분석 · 모델링 · 시각화 · 통계 분석</sub></p>
-        <h3><img src="assets/readme/tools/postgresql.svg" width="56" height="56" alt="" /> PostgreSQL</h3>
-        <p><sub>데이터 ETL · 조회 · 분석</sub></p>
-        <h3><img src="assets/readme/tools/notion.svg" width="56" height="56" alt="" /> Notion</h3>
-        <p><sub>일정 관리 · 협업 · 산출물 기록 · 보고서 작성</sub></p>
+      <td valign="top" align="center">
+        <h3><img src="assets/readme/tools/python.svg" width="56" height="56" alt="" /><br />Python</h3>
+        <p><sub>데이터 EDA · 분석 · 모델링<br />시각화 · 통계 분석</sub></p>
       </td>
+      <td valign="top" align="center">
+        <h3><img src="assets/readme/tools/postgresql.svg" width="56" height="56" alt="" /><br />PostgreSQL</h3>
+        <p><sub>데이터 ETL · 조회 · 분석</sub></p>
+      </td>
+      <td valign="top" align="center">
+        <h3><img src="assets/readme/tools/notion.svg" width="56" height="56" alt="" /><br />Notion</h3>
+        <p><sub>일정 관리 · 협업<br />산출물 기록 · 보고서 작성</sub></p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<br />
+
+## 참여 팀원
+
+<table>
+  <tbody>
+    <tr>
       <td valign="top" align="center">
         <h3>박중현</h3>
         <p><a href="https://github.com/JHPark-kor">JHPark-kor</a></p>
-        <br />
+      </td>
+      <td valign="top" align="center">
         <h3>강재성</h3>
         <p><a href="https://github.com/jaesung0306">jaesung0306</a></p>
-        <br />
+      </td>
+      <td valign="top" align="center">
         <h3>신정윤</h3>
         <p><a href="https://github.com/wjddbsl03">wjddbsl03</a></p>
       </td>
