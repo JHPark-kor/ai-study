@@ -115,14 +115,35 @@ def export(page,parent=None):
             for f in p.get('files',[]): download(f,rec,name)
     rec['text'] = '\n\n'.join(blocks(page['id'],rec))
     print(json.dumps(dict(title=rec['title'],files=len(rec['files']),text_characters=len(rec['text'])),ensure_ascii=False))
+
+diagnostics = {'root_id': ROOT, 'searches': {}, 'root_children': []}
+try:
+    root_page = get('pages', ROOT)
+    diagnostics['root_title'] = title(root_page)
+    for b in paged(f'/blocks/{ROOT}/children'):
+        k = b['type']; d = b.get(k,{})
+        item = {'id': b['id'], 'type': k, 'has_children': b.get('has_children',False)}
+        if k in ('child_page','child_database'): item['title'] = d.get('title','')
+        elif k in ('link_to_page',): item['target'] = d
+        elif d.get('rich_text'): item['text'] = rich(d['rich_text'])[:300]
+        diagnostics['root_children'].append(item)
+except RuntimeError as e:
+    diagnostics['root_error'] = str(e)
 matches = {}
 pattern = re.compile(rf'(?i)(?<![a-z0-9])w[\s_-]*0?{WEEK}(?!\d)|(?<!\d){WEEK}\s*주차')
-for query in (f'w{WEEK}',f'{WEEK}주차'):
+for query in (f'w{WEEK}',f'{WEEK}주차',str(WEEK)):
+    rows = []
     for page in paged('/search',{'query':query,'filter':{'property':'object','value':'page'}}):
-        if pattern.search(title(page)) and not page.get('in_trash') and under_study(page): matches[compact(page['id'])] = page
-for page in matches.values(): export(page)
+        row = {'id':page['id'],'title':title(page),'parent':page.get('parent'),'in_trash':page.get('in_trash',False)}
+        try: row['under_study'] = under_study(page)
+        except RuntimeError as e: row['scope_error'] = str(e)
+        rows.append(row)
+        if pattern.search(title(page)) and not page.get('in_trash') and row.get('under_study'): matches[compact(page['id'])] = page
+    diagnostics['searches'][query] = rows
 OUT.mkdir(exist_ok=True)
+(OUT/'diagnostics.json').write_text(json.dumps(diagnostics,ensure_ascii=False,indent=2),encoding='utf-8')
+print(json.dumps(diagnostics,ensure_ascii=False,indent=2))
+for page in matches.values(): export(page)
 (OUT/'manifest.json').write_text(json.dumps(dict(week=WEEK,root_id=ROOT,matched_pages=len(matches),records=list(RECORDS.values())),ensure_ascii=False,indent=2),encoding='utf-8')
-if not RECORDS: raise RuntimeError(f'No W{WEEK} pages accessible beneath the study page')
+if not RECORDS: print(f'No W{WEEK} pages exported; see discovery diagnostics.')
 print(f'Exported {len(RECORDS)} pages and {sum(len(x["files"]) for x in RECORDS.values())} attachments.')
-
