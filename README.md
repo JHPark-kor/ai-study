@@ -175,10 +175,16 @@
     </tr>
     <tr>
       <td>W12</td>
-      <td>선형회귀</td>
+      <td rowspan="2"><a href="algorithms/linear/README.md">선형회귀</a></td>
       <td><strong>수학 원리 토의</strong><br /><sub>최소제곱법 · 로지스틱 회귀 · 볼록함수</sub></td>
       <td><a href="https://app.notion.com/p/3ef917c0e6408077907be85f4461eb26">선형회귀 수학 원리</a></td>
       <td><a href="meetings/w12_linear_math_theory.md">회의록</a></td>
+    </tr>
+    <tr>
+      <td>W13</td>
+      <td><strong>논문·사례 리뷰</strong><br /><sub>영화 홀드백 효과 · KBO 관중 수 예측<br />최고경영자 특성과 신용등급</sub></td>
+      <td><a href="algorithms/linear/paper_review/README.md">선형회귀 논문 리뷰</a></td>
+      <td><a href="meetings/w13_linear_paper_review.md">회의록</a></td>
     </tr>
   </tbody>
 </table>

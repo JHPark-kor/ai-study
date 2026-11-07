@@ -24,5 +24,6 @@
 | W10 | Bayesian | paper_review | [w10_bayesian_paper_review.md](w10_bayesian_paper_review.md) |
 | W11 | Bayesian | analysis | [w11_bayesian_analysis.md](w11_bayesian_analysis.md) |
 | W12 | Linear | math_theory | [w12_linear_math_theory.md](w12_linear_math_theory.md) |
+| W13 | Linear | paper_review | [w13_linear_paper_review.md](w13_linear_paper_review.md) |
 
-W3~W6 파일은 아직 내용이 작성되지 않은 회의록 양식입니다. W7은 주차 페이지의 후속 학습 기록입니다. W8에는 W7과 중복되는 TODO가 있어 원문 확인 사항으로 남겼으며 독립된 회의 내용은 확인되지 않았습니다. W10~W12는 Notion에서 확인한 실제 회의록을 바탕으로 정리했습니다. W12 개인 과제 첨부는 아직 확인되지 않았으며, 회의록 등록과 과제 제출 완료는 별개입니다.
+W3~W6 파일은 아직 내용이 작성되지 않은 회의록 양식입니다. W7은 주차 페이지의 후속 학습 기록입니다. W8에는 W7과 중복되는 TODO가 있어 원문 확인 사항으로 남겼으며 독립된 회의 내용은 확인되지 않았습니다. W10~W13은 Notion에서 확인한 실제 회의록을 바탕으로 정리했습니다. W12 개인 과제 첨부는 아직 확인되지 않았으며, 회의록 등록과 과제 제출 완료는 별개입니다.
