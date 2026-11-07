@@ -118,6 +118,15 @@ def export(page,parent=None):
 
 diagnostics = {'root_id': ROOT, 'searches': {}, 'root_children': []}
 try:
+    bot = req('GET','/users/me')
+    diagnostics['integration_name'] = bot.get('name')
+    diagnostics['integration_type'] = bot.get('type')
+except RuntimeError as e: diagnostics['integration_error'] = str(e)
+try:
+    previous = get('pages','3ef917c0e6408077907be85f4461eb26')
+    diagnostics['known_w12_page'] = {'title':title(previous),'accessible':True}
+except RuntimeError as e: diagnostics['known_w12_error'] = str(e)
+try:
     root_page = get('pages', ROOT)
     diagnostics['root_title'] = title(root_page)
     for b in paged(f'/blocks/{ROOT}/children'):
